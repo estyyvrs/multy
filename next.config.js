@@ -1,1 +1,3 @@
-module.exports = { images: { unoptimized: true, remotePatterns: [{protocol: 'https', hostname: '**'}] } }
+/** @type {import('next').NextConfig} */
+const nextConfig = {};
+module.exports = nextConfig;
